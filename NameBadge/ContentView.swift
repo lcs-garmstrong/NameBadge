@@ -20,7 +20,10 @@ struct ContentView: View {
     
     
     var body: some View {
-        Text(myName)
+        VStack {
+            Text("Hi, my name is...")
+            Text(myName)
+        }
     }
 }
 
